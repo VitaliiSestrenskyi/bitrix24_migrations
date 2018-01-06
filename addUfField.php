@@ -1,6 +1,6 @@
 <?php
 
-class CreateUfAccountState1208 extends AbstractMigration
+class CreateUfTestDealField extends AbstractMigration
 {
     private $arFields = [
         'ENTITY_ID' => 'CRM_DEAL',
