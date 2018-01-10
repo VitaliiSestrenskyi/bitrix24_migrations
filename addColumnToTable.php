@@ -7,14 +7,14 @@ class addColumnToTable extends AbstractMigration
     {
          $connection = Application::getInstance()->getConnection();
 
-        $sql = "ALTER TABLE `itua_crm_product_row` ADD `AMOUNT_INDIVIDUAL_DISCOUNT` varchar(255) AFTER `AMOUNT_MANUAL_DISCOUNT`;";
+        $sql = "ALTER TABLE `crm_table_name` ADD `NEW_COLUMN_NAME` varchar(255) AFTER `DISCOUNT`;";
         $connection->queryExecute($sql);
     }
     public function down()
     {
         $connection = Application::getInstance()->getConnection();
 
-        $sql = "ALTER TABLE `itua_crm_product_row` DROP `AMOUNT_INDIVIDUAL_DISCOUNT`;";
+        $sql = "ALTER TABLE `crm_table_name` DROP `NEW_COLUMN_NAME`;";
         $connection->queryExecute($sql);
     }
 }
