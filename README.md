@@ -3,6 +3,7 @@
 
 1. [Добавить UF свойство типа string](addUfFieldString.php) 
 2. [Добавить UF свойство типа datetime](addUfFieldDatetime.php) 
-3. [Добавить столбец в таблицу](addColumnToTable.php) 
-4. [Регистрация обработчика события](registerEventHandler.php) 
-5. [Добавления нового значения для UF поля типа список](addNewEnumItemForUf.php) 
+3. [Добавить UF свойство типа boolean](addUfFieldBoolean.php) 
+4. [Добавить столбец в таблицу](addColumnToTable.php) 
+5. [Регистрация обработчика события](registerEventHandler.php) 
+6. [Добавления нового значения для UF поля типа список](addNewEnumItemForUf.php) 
