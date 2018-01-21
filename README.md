@@ -8,3 +8,4 @@
 5. [Регистрация обработчика события](registerEventHandler.php) 
 6. [Добавления нового значения для UF поля типа список](addNewEnumItemForUf.php) 
 7. [Установка пользовательских настроек для карточки CRM](setUserOptions.php) 
+8. [Добавления новых стадий сделки CRM](AddNewDealStages.php)
