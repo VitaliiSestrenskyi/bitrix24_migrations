@@ -11,3 +11,4 @@
 8. [Добавления новых стадий сделки CRM](AddNewDealStages.php)
 9. [Добавления веб-формы](AddNewWebForm.php)
 10. [Изменния значения NULL для колонки таблицы ](changeColumnTable.php)
+11. [Наполнения тестовыми данными инфоблок](addDataToIblock.php)
