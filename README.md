@@ -12,3 +12,4 @@
 9. [Добавления веб-формы](AddNewWebForm.php)
 10. [Изменния значения NULL для колонки таблицы ](changeColumnTable.php)
 11. [Наполнения тестовыми данными инфоблок](addDataToIblock.php)
+12. [Создание таблицы с references and foreign keys](createTable.php)
