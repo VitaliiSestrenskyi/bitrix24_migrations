@@ -1,6 +1,7 @@
 # bitrix24_migrations
 Миграции для Б24
 
+0. [Добавить UF свойство типа double](addUfFieldDouble.php) 
 1. [Добавить UF свойство типа string](addUfFieldString.php) 
 2. [Добавить UF свойство типа datetime](addUfFieldDatetime.php) 
 3. [Добавить UF свойство типа boolean](addUfFieldBoolean.php) 
