@@ -14,3 +14,4 @@
 10. [Изменния значения NULL для колонки таблицы ](changeColumnTable.php)
 11. [Наполнения тестовыми данными инфоблок](addDataToIblock.php)
 12. [Создание таблицы с references and foreign keys](createTable.php)
+13. [Добавить UF свойство типа enumeration](addUfFieldEnumeration.php) 
