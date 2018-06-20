@@ -15,3 +15,4 @@
 11. [Наполнения тестовыми данными инфоблок](addDataToIblock.php)
 12. [Создание таблицы с references and foreign keys](createTable.php)
 13. [Добавить UF свойство типа enumeration](addUfFieldEnumeration.php) 
+14. [Добавить UF свойство типа Привязка к элементам CRM](addUfFieldCrm.php) 
