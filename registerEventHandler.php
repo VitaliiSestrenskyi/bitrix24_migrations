@@ -5,7 +5,7 @@ class RegisterEventHandler extends AbstractMigration
     
     public function up()
     {
-        EventManager::getInstance()->registerEventHandler(
+        \Bitrix\Main\EventManager::getInstance()->registerEventHandler(
             'main',
             'OnEpilog',
             self::MODULE_ID,
@@ -20,7 +20,7 @@ class RegisterEventHandler extends AbstractMigration
     }
     public function down()
     {
-        EventManager::getInstance()->unRegisterEventHandler(
+        \Bitrix\Main\EventManager::getInstance()->unRegisterEventHandler(
             'main',
             'OnEpilog',
             self::MODULE_ID,
