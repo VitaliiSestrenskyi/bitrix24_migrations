@@ -18,3 +18,4 @@
 14. [Добавить UF свойство типа Привязка к элементам CRM](addUfFieldCrm.php) 
 15. [Добавить UF свойство типа Привязка к элементам инф. блоков](addUfFieldIblockElement.php) 
 16. [Добавить свойство заказа](addOrderProp.php) 
+17. [Установить цвета заказов](setStatusColors.php) 
