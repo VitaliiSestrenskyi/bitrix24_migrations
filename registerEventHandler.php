@@ -1,14 +1,14 @@
 <?php
 class RegisterEventHandler extends AbstractMigration
 {
-    const MODULE_ID = 'xxxx.xxx';
     
     public function up()
     {
+        $MODULE_ID = 'xxxx.xxx';
         \Bitrix\Main\EventManager::getInstance()->registerEventHandler(
             'main',
             'OnEpilog',
-            self::MODULE_ID,
+            $MODULE_ID,
             '\Xxx\OnEpilogListener',
             'OnEpilogListenerHandler'
         );
@@ -20,10 +20,11 @@ class RegisterEventHandler extends AbstractMigration
     }
     public function down()
     {
+        $MODULE_ID = 'xxxx.xxx';
         \Bitrix\Main\EventManager::getInstance()->unRegisterEventHandler(
             'main',
             'OnEpilog',
-            self::MODULE_ID,
+            $MODULE_ID,
             '\Xxx\OnEpilogListener',
             'OnEpilogListenerHandler'
         );
