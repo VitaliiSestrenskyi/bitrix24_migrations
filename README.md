@@ -21,3 +21,4 @@
 17. [Установить цвета заказов](setStatusColors.php) 
 18. [Копировать данные из одной колонки в другую](copyColumnData.php) 
 19. [Добавить UF свойство типа date](addUfFieldDate.php) 
+20. [Добавления свойств для инфоблоков типа списк](addListProps.php) 
