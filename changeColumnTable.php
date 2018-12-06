@@ -1,11 +1,9 @@
 <?php
-use Bitrix\Main\Application;
-
 class changeColumnTable extends AbstractMigration
 {
     public function commit()
     {
-        $connection = Application::getInstance()->getConnection();
+        $connection = \Bitrix\Main\Application::getInstance()->getConnection();
 
         $sql = [];
         $sql[] = "ALTER TABLE `repayments` DROP `COLUMN_NAME_TEST`;";
@@ -19,7 +17,7 @@ class changeColumnTable extends AbstractMigration
 
     public function rollback()
     {
-        $connection = Application::getInstance()->getConnection();
+        $connection = \Bitrix\Main\Application::getInstance()->getConnection();
 
         $sql = [];
         $sql[] = "ALTER TABLE `repayments` DROP `COLUMN_NAME_TEST`;";
