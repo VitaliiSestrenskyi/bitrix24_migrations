@@ -55,7 +55,7 @@ class CreateUfTestDealField extends AbstractMigration
     {
         $rsData = CUserTypeEntity::GetList(
             array($by => $order),
-            array('FIELD_NAME' => $this->arFields['FIELD_NAME'])
+            array('FIELD_NAME' => $this->arFields['FIELD_NAME'], 'ENTITY_ID' => $this->arFields['ENTITY_ID'])
         );
         if ($arRes = $rsData->Fetch())
         {
