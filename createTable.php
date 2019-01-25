@@ -1,11 +1,9 @@
 <?php
-use Bitrix\Main\Application;
-
 class migration 
 {
     public function up()
     {
-        $connection = Application::getInstance()->getConnection();
+        $connection = \Bitrix\Main\Application::getInstance()->getConnection();
         $sql = "CREATE TABLE test 
                 (
                   ID int not null auto_increment,
@@ -27,7 +25,7 @@ class migration
 
     public function down()
     {
-        $connection = Application::getInstance()->getConnection();
+        $connection = \Bitrix\Main\Application::getInstance()->getConnection();
         $sql = "drop table if exists test;";
         $connection->queryExecute($sql);
     }
