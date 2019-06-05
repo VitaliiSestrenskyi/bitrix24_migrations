@@ -41,7 +41,7 @@ class CreateUfTestDealField extends AbstractMigration
     ];
     public function up()
     {
-        $obUserField = new CUserTypeEntity;
+        $obUserField = new \CUserTypeEntity;
         $obUserField->Add($this->arFields);
     }
     public function down()
