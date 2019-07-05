@@ -27,3 +27,5 @@
 23. [Установка/Удаления модуля](installUninstall.php) 
 24. [Добавления новые категорий сделок](addNewDealCategories.php) 
 25. [Добавления новых статусов к категориям](addNewStatusesToDealCategories.php) 
+26. [Добавления нового поля в существующий хайлоад](addUfFieldToHL.php) 
+
