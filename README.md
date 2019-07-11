@@ -29,3 +29,5 @@
 25. [Добавления новых статусов к категориям](addNewStatusesToDealCategories.php) 
 26. [Добавления нового поля в существующий хайлоад](addUfFieldToHL.php) 
 27. [Изменения STATUS_ID в справочниках CRM ](changeSourceId.php) 
+28. [Добавления и удаления свойств в инфоблок типа Список](addDeleteProps.php) 
+
