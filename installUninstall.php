@@ -19,7 +19,7 @@ class Module extends AbstractMigration
     public function down()
     {
         \Bitrix\Main\Loader::includeModule('main');
-        $id = "test.test"
+        $id = "test.test";
         $Module = \CModule::CreateModuleObject($id);
         if($Module)
         {
