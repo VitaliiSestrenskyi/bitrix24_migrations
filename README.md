@@ -30,4 +30,4 @@
 26. [Добавления нового поля в существующий хайлоад](addUfFieldToHL.php) 
 27. [Изменения STATUS_ID в справочниках CRM ](changeSourceId.php) 
 28. [Добавления и удаления свойств в инфоблок типа Список](addDeleteProps.php) 
-
+29. [Добавления элемента в инфоблок типа Список](addNewElementToIblockTypeLists.php) 
