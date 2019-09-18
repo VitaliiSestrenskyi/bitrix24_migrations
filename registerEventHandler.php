@@ -17,6 +17,7 @@ class RegisterEventHandler extends AbstractMigration
             true,
             true
         );
+        self::cleanAllCache();
     }
     public function down()
     {
@@ -29,5 +30,14 @@ class RegisterEventHandler extends AbstractMigration
             'OnEpilogListenerHandler'
         );
         DeleteDirFilesEx( BX_ROOT."/css/".self::MODULE_ID.'/crm_deal_details.css' );
+        self::cleanAllCache();
+    }
+    
+    public static function cleanAllCache(){
+        BXClearCache(true);
+        $GLOBALS["CACHE_MANAGER"]->CleanAll();
+        $GLOBALS["stackCacheManager"]->CleanAll();
+        $staticHtmlCache = \Bitrix\Main\Data\StaticHtmlCache::getInstance();
+        $staticHtmlCache->deleteAll();
     }
 }
