@@ -31,3 +31,6 @@
 27. [Изменения STATUS_ID в справочниках CRM ](changeSourceId.php) 
 28. [Добавления и удаления свойств в инфоблок типа Список](addDeleteProps.php) 
 29. [Добавления элемента в инфоблок типа Список](addNewElementToIblockTypeLists.php) 
+30. [Creating a new user group](createGroup.php) 
+
+
