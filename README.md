@@ -33,5 +33,5 @@
 29. [Добавления элемента в инфоблок типа Список](addNewElementToIblockTypeLists.php) 
 30. [Creating a new user group](createGroup.php) 
 31. [Creating a CRM role](addNewCrmRole.php) 
-
+32. [Set user to group](setUserGroup.php) 
 
