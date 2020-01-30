@@ -34,4 +34,4 @@
 30. [Creating a new user group](createGroup.php) 
 31. [Creating a CRM role](addNewCrmRole.php) 
 32. [Set user to group](setUserGroup.php) 
-33. [Set user to group](importBP.php) 
+33. [Import BP](importBP.php) 
