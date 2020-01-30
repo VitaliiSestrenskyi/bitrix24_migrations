@@ -35,3 +35,4 @@
 31. [Creating a CRM role](addNewCrmRole.php) 
 32. [Set user to group](setUserGroup.php) 
 33. [Import BP](importBP.php) 
+34. [Create group of Social Network](createSG.php) 
