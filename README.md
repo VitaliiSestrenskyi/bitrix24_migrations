@@ -36,4 +36,7 @@
 32. [Set user to group](setUserGroup.php) 
 33. [Import BP](importBP.php) 
 34. [Create group of Social Network](createSG.php) 
-34. [Create task template](addTaskTemplate.php) 
+35. [Create task template](addTaskTemplate.php) 
+36. [Set CRM relations](crm_relations.php) 
+
+
