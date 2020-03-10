@@ -38,5 +38,4 @@
 34. [Create group of Social Network](createSG.php) 
 35. [Create task template](addTaskTemplate.php) 
 36. [Set CRM relations](crm_relations.php) 
-
-
+37. [Set Lead Kanban field's view](setKanbanFieldsView.php) 
